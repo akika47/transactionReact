@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+
+.container{
+    width:350px;
+    border:1px solid black;
+    
+}
+
+.header{
+    margin-bottom: 20px;
+}
+
+.header h1{
+    font-size: 1.6rem;
+}
+
+.balance{
+    margin-bottom: 15px;
+}
+
+.balance h2{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.balance h3{
+    font-size: 1.6rem;
+}
+
+.incomeexpense{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 4px 4px 4px rgb(170, 170, 170);
+}
